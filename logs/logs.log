@@ -1,0 +1,354 @@
+[INFO ] 2023-07-08 09:57:20.189 [main] DriverFactory - the apk path is : /Users/moussaraouf/IdeaProjects/EcommerceApp/apps/ecomm1.8.apk
+[INFO ] 2023-07-08 09:57:20.191 [main] DriverFactory - the appium server url is : http://localhost:4723
+[INFO ] 2023-07-08 09:57:20.196 [main] DriverFactory - Capabilities of android emulator are : Capabilities {app: /Users/moussaraouf/IdeaProj..., appium:autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 4 API 30, fullReset: true, language: fr, locale: FR, platformName: ANDROID, platformVersion: 13.0}
+[DEBUG] 2023-07-08 09:57:20.266 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-07-08 09:57:20.270 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-07-08 09:57:20.270 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-07-08 09:57:20.274 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@fb6097b
+[DEBUG] 2023-07-08 09:57:20.287 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-07-08 09:57:20.287 [main] PlatformDependent0 - Java version: 20
+[DEBUG] 2023-07-08 09:57:20.288 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-07-08 09:57:20.288 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-07-08 09:57:20.288 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-07-08 09:57:20.289 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-07-08 09:57:20.289 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-07-08 09:57:20.290 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-07-08 09:57:20.291 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @737996a0
+[DEBUG] 2023-07-08 09:57:20.291 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-07-08 09:57:20.291 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-07-08 09:57:20.293 [main] PlatformDependent - maxDirectMemory: 4294967296 bytes (maybe)
+[DEBUG] 2023-07-08 09:57:20.293 [main] PlatformDependent - -Dio.netty.tmpdir: /var/folders/yk/ydsp6wg17pvgc7p04phjdstc0000gn/T (java.io.tmpdir)
+[DEBUG] 2023-07-08 09:57:20.293 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-07-08 09:57:20.294 [main] PlatformDependent - Platform: MacOS
+[DEBUG] 2023-07-08 09:57:20.294 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-07-08 09:57:20.294 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-07-08 09:57:20.295 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-07-08 09:57:20.295 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-07-08 09:57:20.301 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-07-08 09:57:20.320 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-07-08 09:57:20.320 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-07-08 09:57:20.432 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-07-08 09:57:20.432 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-07-08 09:57:20.443 [main] GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[DEBUG] 2023-07-08 09:57:20.456 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 32
+[DEBUG] 2023-07-08 09:57:20.463 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-07-08 09:57:20.464 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-07-08 09:57:20.492 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 32
+[DEBUG] 2023-07-08 09:57:20.492 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 32
+[DEBUG] 2023-07-08 09:57:20.492 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-07-08 09:57:20.492 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-07-08 09:57:20.492 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-07-08 09:57:20.492 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-07-08 09:57:20.492 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-07-08 09:57:20.492 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-07-08 09:57:20.493 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-07-08 09:57:20.493 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-07-08 09:57:20.493 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-07-08 09:57:20.493 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-07-08 09:57:20.505 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-07-08 09:57:20.505 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-07-08 09:57:20.505 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-07-08 09:57:20.629 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 8901 (auto-detected)
+[DEBUG] 2023-07-08 09:57:20.631 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-07-08 09:57:20.631 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-07-08 09:57:20.637 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+[DEBUG] 2023-07-08 09:57:20.638 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+[DEBUG] 2023-07-08 09:57:20.640 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 88:66:5a:ff:fe:1d:10:c9 (auto-detected)
+[DEBUG] 2023-07-08 09:57:20.674 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-07-08 09:57:20.674 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-07-08 09:57:20.674 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@784c6b45
+[DEBUG] 2023-07-08 09:57:20.691 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-07-08 09:57:20.691 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-07-08 09:57:20.691 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-07-08 09:57:20.691 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-07-08 09:57:20.692 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[DEBUG] 2023-07-08 09:57:28.124 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[INFO ] 2023-07-08 09:57:28.178 [main] GlobalHooks - The driver is UP 
+[INFO ] 2023-07-08 09:57:28.178 [main] GlobalHooks - ** The test 'real account forget password operation' has just started
+[INFO ] 2023-07-08 09:57:29.321 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:57:31.003 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:57:31.263 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:57:33.690 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: //android.widget.ImageButton[@content-desc="App"]})
+[INFO ] 2023-07-08 09:57:35.239 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[4]/android.widget.CheckedTextView})
+[INFO ] 2023-07-08 09:57:36.715 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: tv_reset_password})
+[INFO ] 2023-07-08 09:57:37.902 [main] MyAppium - ****** Trying to enter 'ivkevla@yopmail.com' in Located by By.chained({AppiumBy.id: et_pr_email})
+[INFO ] 2023-07-08 09:57:40.999 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: btn_pr_reset})
+[INFO ] 2023-07-08 09:57:51.548 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: //*[@resource-id='com.android.chrome:id/search_box_text'] | //*[@resource-id='com.android.chrome:id/url_bar']})
+[INFO ] 2023-07-08 09:57:51.551 [main] MyAppium - ****** Trying to enter 'https://yopmail.com/fr/' in Located by By.chained({By.xpath: //*[@resource-id='com.android.chrome:id/search_box_text'] | //*[@resource-id='com.android.chrome:id/url_bar']})
+[INFO ] 2023-07-08 09:57:55.050 [main] MyAppium - ****** Trying to enter 'ivkevla@yopmail.com' in Located by By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.EditText})
+[INFO ] 2023-07-08 09:58:01.767 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.widget.Button})
+[WARN ] 2023-07-08 09:58:03.609 [main] MyAppium - ****** Impossible to click on element [Located by By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View/android.view.View[3]/android.view.View/android.view.View/android.view.View[1]/android.widget.Button})] after 0 attempts.
+[INFO ] 2023-07-08 09:58:03.844 [main] MyAppium - ****** Trying to click 2 times on the element: Located by By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View/android.view.View[3]/android.view.View/android.view.View/android.view.View[1]/android.widget.Button})
+[INFO ] 2023-07-08 09:58:05.928 [main] MyAppium - ****** Trying to enter '969402' in Located by By.chained({AppiumBy.id: et_pr_code})
+[INFO ] 2023-07-08 09:58:07.819 [main] MyAppium - ****** Trying to enter 'mxlwoa' in Located by By.chained({AppiumBy.id: et_pr_password})
+[INFO ] 2023-07-08 09:58:11.784 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: btn_pr_reset})
+[INFO ] 2023-07-08 09:58:13.472 [main] MyAppium - ****** Trying to enter 'ivkevla@yopmail.com' in Located by By.chained({AppiumBy.id: et_login_username})
+[INFO ] 2023-07-08 09:58:15.253 [main] MyAppium - ****** Trying to enter 'mxlwoa' in Located by By.chained({AppiumBy.id: et_login_password})
+[INFO ] 2023-07-08 09:58:17.118 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: btn_login})
+[INFO ] 2023-07-08 09:58:18.356 [main] MyAppium - ****** Verifying whether the element : 'Located by By.chained({AppiumBy.id: btn_logout})' is present or not
+[INFO ] 2023-07-08 09:58:18.405 [main] DriverFactory - the apk path is : /Users/moussaraouf/IdeaProjects/EcommerceApp/apps/ecomm1.8.apk
+[INFO ] 2023-07-08 09:58:18.405 [main] DriverFactory - the appium server url is : http://localhost:4723
+[INFO ] 2023-07-08 09:58:18.406 [main] DriverFactory - Capabilities of android emulator are : Capabilities {app: /Users/moussaraouf/IdeaProj..., appium:autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 4 API 30, fullReset: true, language: fr, locale: FR, platformName: ANDROID, platformVersion: 13.0}
+[INFO ] 2023-07-08 09:58:25.745 [main] GlobalHooks - The driver is UP 
+[INFO ] 2023-07-08 09:58:25.745 [main] GlobalHooks - ** The test 'random account forget password operation' has just started
+[INFO ] 2023-07-08 09:58:26.972 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:58:27.905 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:58:28.168 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:58:30.097 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: //android.widget.ImageButton[@content-desc="App"]})
+[INFO ] 2023-07-08 09:58:32.026 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[4]/android.widget.CheckedTextView})
+[INFO ] 2023-07-08 09:58:33.418 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: tv_reset_password})
+[INFO ] 2023-07-08 09:58:35.048 [main] MyAppium - ****** Trying to enter 'vinnvb@yopmail.com' in Located by By.chained({AppiumBy.id: et_pr_email})
+[INFO ] 2023-07-08 09:58:36.910 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: btn_pr_reset})
+[INFO ] 2023-07-08 09:58:41.917 [main] MyAppium - ****** Verifying whether the element : 'Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/snackbar_text})' is present or not
+[INFO ] 2023-07-08 09:58:42.998 [main] MyAppium - ****** The element  : 'Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/snackbar_text})' is not display
+[INFO ] 2023-07-08 09:58:43.007 [main] DriverFactory - the apk path is : /Users/moussaraouf/IdeaProjects/EcommerceApp/apps/ecomm1.8.apk
+[INFO ] 2023-07-08 09:58:43.008 [main] DriverFactory - the appium server url is : http://localhost:4723
+[INFO ] 2023-07-08 09:58:43.008 [main] DriverFactory - Capabilities of android emulator are : Capabilities {app: /Users/moussaraouf/IdeaProj..., appium:autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 4 API 30, fullReset: true, language: fr, locale: FR, platformName: ANDROID, platformVersion: 13.0}
+[INFO ] 2023-07-08 09:58:50.389 [main] GlobalHooks - The driver is UP 
+[INFO ] 2023-07-08 09:58:50.389 [main] GlobalHooks - ** The test 'check if im connected' has just started
+[INFO ] 2023-07-08 09:58:51.615 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:58:52.513 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:58:53.243 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:58:54.988 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: //android.widget.ImageButton[@content-desc="App"]})
+[INFO ] 2023-07-08 09:58:56.636 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[4]/android.widget.CheckedTextView})
+[INFO ] 2023-07-08 09:58:58.100 [main] MyAppium - ****** Trying to enter 'moussaraouf@outlook.fr' in Located by By.chained({AppiumBy.id: et_login_username})
+[INFO ] 2023-07-08 09:59:00.048 [main] MyAppium - ****** Trying to enter 'Medraouf1234' in Located by By.chained({AppiumBy.id: et_login_password})
+[INFO ] 2023-07-08 09:59:01.920 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: btn_login})
+[INFO ] 2023-07-08 09:59:03.389 [main] MyAppium - ****** Verifying whether the element : 'Located by By.chained({AppiumBy.id: btn_logout})' is present or not
+[INFO ] 2023-07-08 09:59:03.457 [main] DriverFactory - the apk path is : /Users/moussaraouf/IdeaProjects/EcommerceApp/apps/ecomm1.8.apk
+[INFO ] 2023-07-08 09:59:03.457 [main] DriverFactory - the appium server url is : http://localhost:4723
+[INFO ] 2023-07-08 09:59:03.457 [main] DriverFactory - Capabilities of android emulator are : Capabilities {app: /Users/moussaraouf/IdeaProj..., appium:autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 4 API 30, fullReset: true, language: fr, locale: FR, platformName: ANDROID, platformVersion: 13.0}
+[INFO ] 2023-07-08 09:59:10.679 [main] GlobalHooks - The driver is UP 
+[INFO ] 2023-07-08 09:59:10.680 [main] GlobalHooks - ** The test 'A user logs out of the website' has just started
+[INFO ] 2023-07-08 09:59:11.925 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:59:12.839 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:59:13.069 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:59:14.965 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: //android.widget.ImageButton[@content-desc="App"]})
+[INFO ] 2023-07-08 09:59:16.394 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[4]/android.widget.CheckedTextView})
+[INFO ] 2023-07-08 09:59:17.792 [main] MyAppium - ****** Trying to enter 'moussaraouf@outlook.fr' in Located by By.chained({AppiumBy.id: et_login_username})
+[INFO ] 2023-07-08 09:59:19.097 [main] DriverFactory - the apk path is : /Users/moussaraouf/IdeaProjects/EcommerceApp/apps/ecomm1.8.apk
+[INFO ] 2023-07-08 09:59:19.097 [main] DriverFactory - the appium server url is : http://localhost:4723
+[INFO ] 2023-07-08 09:59:19.097 [main] DriverFactory - Capabilities of android emulator are : Capabilities {app: /Users/moussaraouf/IdeaProj..., appium:autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 4 API 30, fullReset: true, language: fr, locale: FR, platformName: ANDROID, platformVersion: 13.0}
+[INFO ] 2023-07-08 09:59:25.737 [main] GlobalHooks - The driver is UP 
+[INFO ] 2023-07-08 09:59:25.737 [main] GlobalHooks - ** The test 'Registering new user' has just started
+[INFO ] 2023-07-08 09:59:26.962 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:59:27.850 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:59:28.095 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 09:59:30.520 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: //android.widget.ImageButton[@content-desc="App"]})
+[INFO ] 2023-07-08 09:59:31.834 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[4]/android.widget.CheckedTextView})
+[INFO ] 2023-07-08 09:59:33.202 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: tv_register})
+[INFO ] 2023-07-08 09:59:34.600 [main] MyAppium - ****** Trying to enter 'Schaden' in Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/et_register_username})
+[INFO ] 2023-07-08 09:59:36.369 [main] MyAppium - ****** Trying to enter '0674049324' in Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/et_register_mno})
+[INFO ] 2023-07-08 09:59:38.149 [main] MyAppium - ****** Trying to enter 'adccoyz@yopmail.com' in Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/et_register_email})
+[INFO ] 2023-07-08 09:59:39.880 [main] MyAppium - ****** Trying to enter 'slfcqjk' in Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/et_register_password})
+[INFO ] 2023-07-08 09:59:42.116 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_register})
+[ERROR] 2023-07-08 09:59:52.157 [main] Waiters - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Located by By.chained({AppiumBy.id: btn_logout}) (tried for 5 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Located by By.chained({AppiumBy.id: btn_logout}) (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230) ~[selenium-support-4.10.0.jar:?]
+	at myappium.Waiters.elementToBeClickable(Waiters.java:193) ~[classes/:?]
+	at pages.mobile.AccountPage.waitForLoad(AccountPage.java:50) ~[classes/:?]
+	at pages.mobile.AccountPage.isProfileBtnDisplayed(AccountPage.java:55) ~[classes/:?]
+	at steps.LoginSteps.iShouldBeLogged(LoginSteps.java:38) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-6.9.1.jar:6.9.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-6.9.1.jar:6.9.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-6.9.1.jar:6.9.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116) ~[cucumber-testng-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113) ~[cucumber-testng-6.9.1.jar:6.9.1]
+	at runners.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:33) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.id: btn_logout})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:54) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$sa8hmqzq.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205) ~[selenium-support-4.10.0.jar:?]
+	... 47 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@227ca700 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230) ~[selenium-support-4.10.0.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:54) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$sa8hmqzq.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205) ~[selenium-support-4.10.0.jar:?]
+	... 47 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({AppiumBy.id: btn_logout})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5', java.version: '20.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344) ~[selenium-remote-driver-4.10.0.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:119) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:171) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:164) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205) ~[selenium-support-4.10.0.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:54) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$sa8hmqzq.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205) ~[selenium-support-4.10.0.jar:?]
+	... 47 more
+[INFO ] 2023-07-08 09:59:52.174 [main] DriverFactory - the apk path is : /Users/moussaraouf/IdeaProjects/EcommerceApp/apps/ecomm1.8.apk
+[INFO ] 2023-07-08 09:59:52.174 [main] DriverFactory - the appium server url is : http://localhost:4723
+[INFO ] 2023-07-08 09:59:52.175 [main] DriverFactory - Capabilities of android emulator are : Capabilities {app: /Users/moussaraouf/IdeaProj..., appium:autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 4 API 30, fullReset: true, language: fr, locale: FR, platformName: ANDROID, platformVersion: 13.0}
+[INFO ] 2023-07-08 09:59:59.122 [main] GlobalHooks - The driver is UP 
+[INFO ] 2023-07-08 09:59:59.122 [main] GlobalHooks - ** The test 'returning backward' has just started
+[INFO ] 2023-07-08 10:00:00.128 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 10:00:01.028 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 10:00:01.226 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({AppiumBy.id: com.studiobluelime.ecommerceapp:id/btn_next})
+[INFO ] 2023-07-08 10:00:02.991 [main] MyAppium - ****** Trying to click 1 times on the element: Located by By.chained({By.xpath: //android.widget.ImageButton[@content-desc="App"]})
+[ERROR] 2023-07-08 10:00:08.664 [main] Waiters - org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[4]/android.widget.CheckedTextView' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5', java.version: '20.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [cecb6c17-2d98-4888-a415-a21b62615c63, isElementDisplayed {id=00000000-0000-080e-ffff-ffff00000067}]
+Capabilities {appium:app: /Users/moussaraouf/IdeaProj..., appium:appPackage: com.studiobluelime.ecommerc..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/moussaraouf/IdeaProj..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 4 API 30, fullReset: true, language: fr, locale: FR, platformName: ANDROID, platformVersion: 13.0}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: Pixel 4a, appium:deviceName: 17071JEC211373, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 17071JEC211373, appium:fullReset: true, appium:javascriptEnabled: true, appium:language: fr, appium:locale: FR, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 13, appium:statBarHeight: 136, appium:takesScreenshot: true, appium:viewportRect: {height: 2002, left: 0, top: 136, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (cecb6c17-2d98-4888-a415-a21b62615c63)] -> xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[4]/android.widget.CheckedTextView]
+Session ID: cecb6c17-2d98-4888-a415-a21b62615c63
+org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[4]/android.widget.CheckedTextView' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5', java.version: '20.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [cecb6c17-2d98-4888-a415-a21b62615c63, isElementDisplayed {id=00000000-0000-080e-ffff-ffff00000067}]
+Capabilities {appium:app: /Users/moussaraouf/IdeaProj..., appium:appPackage: com.studiobluelime.ecommerc..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/moussaraouf/IdeaProj..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 4 API 30, fullReset: true, language: fr, locale: FR, platformName: ANDROID, platformVersion: 13.0}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: Pixel 4a, appium:deviceName: 17071JEC211373, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 17071JEC211373, appium:fullReset: true, appium:javascriptEnabled: true, appium:language: fr, appium:locale: FR, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 13, appium:statBarHeight: 136, appium:takesScreenshot: true, appium:viewportRect: {height: 2002, left: 0, top: 136, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (cecb6c17-2d98-4888-a415-a21b62615c63)] -> xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[4]/android.widget.CheckedTextView]
+Session ID: cecb6c17-2d98-4888-a415-a21b62615c63
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.10.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:298) ~[selenium-remote-driver-4.10.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:41) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:55) ~[java-client-8.5.1.jar:?]
+	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:75) ~[java-client-8.5.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$T3jhD79A.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205) ~[selenium-support-4.10.0.jar:?]
+	at myappium.Waiters.elementToBeClickable(Waiters.java:193) ~[classes/:?]
+	at pages.mobile.HomePage.waitForLoad(HomePage.java:27) ~[classes/:?]
+	at pages.mobile.HomePage.accessLoginPage(HomePage.java:33) ~[classes/:?]
+	at steps.LoginSteps.iAccessTheLoginPageFromTheNavigationBar(LoginSteps.java:33) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-6.9.1.jar:6.9.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-6.9.1.jar:6.9.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-6.9.1.jar:6.9.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116) ~[cucumber-testng-6.9.1.jar:6.9.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117) ~[cucumber-core-6.9.1.jar:6.9.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113) ~[cucumber-testng-6.9.1.jar:6.9.1]
+	at runners.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:33) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
