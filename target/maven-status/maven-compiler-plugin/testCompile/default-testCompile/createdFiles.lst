@@ -1,5 +1,0 @@
-steps/LoginSteps.class
-steps/RegisterSteps.class
-runners/Runner.class
-runners/AbstractTestNGCucumberTests.class
-steps/ForgetPasswordSteps.class
