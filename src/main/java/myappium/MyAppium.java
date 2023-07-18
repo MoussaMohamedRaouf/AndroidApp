@@ -89,14 +89,14 @@ public class MyAppium {
      */
     public boolean isElementDisplayed(WebElement element){
         logger.log(Level.INFO, () -> ("****** Verifying whether the element : '"+element.toString()+"' is present or not"));
-        this.driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         try {
             return element.isDisplayed();
         }catch(org.openqa.selenium.NoSuchElementException | org.openqa.selenium.StaleElementReferenceException e){
             logger.log(Level.INFO, () -> ("****** The element  : '"+element.toString()+"' is not display"));
             return false;
         }finally {
-            this.driver.manage().timeouts().implicitlyWait(this.defaultImplicitlyWait, TimeUnit.SECONDS);
+            this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(this.defaultImplicitlyWait));
         }
     }
 
@@ -107,7 +107,7 @@ public class MyAppium {
      */
     public boolean isElementDisplayed(String xpathLocator){
         logger.log(Level.INFO, () -> ("****** Verifying whether the element : '"+xpathLocator+"' is present or not"));
-        this.driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         try {
             WebElement element = driver.findElement(By.xpath(xpathLocator));
             return element.isDisplayed();
@@ -115,7 +115,7 @@ public class MyAppium {
             logger.log(Level.INFO, () -> ("****** The element located by : '"+xpathLocator+"' is not display"));
             return false;
         }finally {
-            this.driver.manage().timeouts().implicitlyWait(this.defaultImplicitlyWait, TimeUnit.SECONDS);
+            this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(this.defaultImplicitlyWait));
         }
     }
 
@@ -125,7 +125,7 @@ public class MyAppium {
      * @param element
      */
     public void click(WebElement element){
-        this.driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         boolean clicked = false;
         int attempts = 0;
         while (!clicked && attempts < 10) {
@@ -149,7 +149,7 @@ public class MyAppium {
                 e.printStackTrace();
             }
         }
-        this.driver.manage().timeouts().implicitlyWait(this.defaultImplicitlyWait, TimeUnit.SECONDS);
+        this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(this.defaultImplicitlyWait));
     }
 
     /**

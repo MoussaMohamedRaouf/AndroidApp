@@ -11,7 +11,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 public class DriverFactory {
     protected AppiumDriver driver;
@@ -37,7 +37,7 @@ public class DriverFactory {
      * @return driver
      */
     public AppiumDriver getDriver(){
-        this.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         return this.driver;
     }
 

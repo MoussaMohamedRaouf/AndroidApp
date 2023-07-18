@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class RandomMethods {
     private final Random rnd;
-    private final Faker faker = new Faker(new Locale("en"));
+    private final Faker faker = new Faker();
 
     public RandomMethods(){
         this.rnd = new Random();

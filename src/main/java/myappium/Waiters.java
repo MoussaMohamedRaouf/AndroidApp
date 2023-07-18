@@ -49,14 +49,14 @@ public class Waiters {
      * @param seconds to wait
      */
     public void implicitlyWait(int seconds){
-        this.driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+        this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
     }
 
     /***
      * Implicitly wait in second
      */
     public void defaultImplicitlyWait(){
-        this.driver.manage().timeouts().implicitlyWait(this.defaultImplicitlyWait, TimeUnit.SECONDS);
+        this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(this.defaultImplicitlyWait));
     }
 
     /***
